@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav aria-label="primary navigation">
+                <div class="logo" tabindex="0">myportofolio</div>
+                <ul>
+                 <ul>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" tabindex="0">
+
+        <section id="about" class="about-me" aria-label="about me section">
+            <h1>👋 Hallo semuanya nama saya <strong>Liyana</strong></h1> 
+            <p>
+             Hallo semuanya selamat datang diweb portofolio saya! saya merupakan murid dari sekolah menengah kejuruan
+             pelita nusantara. saat ini saya duduk di kelas 1 smk dengan jurusan saya yaitu perangkat lunak dan game.
+            </p>
+        </section>
+
+        <section id="skills" aria-label="skills section">
+            <h2>💡skills</h2>
+            <div class="skill-list " role="list">
+                <span class="skill" role="listitem">HTML</span>
+                <span class="skill" role="listitem">CSS</span>
+                <span class="skill" role="listitem">JAVASCRIPT</span>
+            </div>
+        </section>
+   
+    
+    
+<section id="projects" aria-label="Projects section"> 
+   <h2>⚙️Projects</h2> 
+   <div class="projects-list"> 
+   
+     <article class="project-item" tabindex="0"> 
+        <h3> Project 1</h3> 
+        <p> 
+            Project jam digital yang dapat digunakan sebagai pemberi tahu waktu dan tanggal yang ingin diketahui.
+        </p> 
+        <a href="jam digital/indez.html" class="project-link" target="_blank" rel="noopener"> Lihat Project</a> 
+     </article> 
+
+     <article class="project-item" tabindex="0"> 
+        <h3> Project 2</h3> 
+        <p> 
+           Web perkenalan entang diri saya sendiri.
+        </p> 
+        <a href="lol/index.html" class="project-link" target="_blank" rel="noopener"> Lihat Project</a> 
+     </article> 
+
+    </div> 
+</section>
+
+<section id="contact" aria-label="Contact section"> 
+    <h2>💬Contact Me </h2> 
+    <form id="contact-form" novalidate> 
+
+        <label for="name">Nama Lengkap</label> 
+        <input type="text" id="name" name="name" placeholder="Nama Anda" aria-label="Nama Anda" required /> 
+        <div class="error" id="name-error"></div> 
+
+        <label for="email">Email</label> 
+        <input type="email" id="email" name="email" placeholder="Email Anda" aria-label="Email Anda" required /> 
+        <div class="error" id="email-error"></div> 
+    
+        <label for="message">Pesan</label> 
+        <textarea id="message" name="message" rows="4" placeholder="Tulis pesan Anda..." aria-label="Pesan Anda" required></textarea> 
+        <div class="error" id="message-error"></div> 
+    
+        <button type="submit" aria-label="Kirim pesan"> Kirim Pesan</button> 
+        <p class="success-msg" id="success-message" aria-live="polite"></p> 
+    </form> 
+</section> 
+</main>
+
+<footer>
+     &copy; 2025 liyana
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
